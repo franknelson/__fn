@@ -270,8 +270,10 @@ button,
 input,
 select,
 textarea {
+	font-family:'merriweather', serif;
 	color: #404040;
-	font-size: 16px;
+	font-weight:400;
+	font-size: 100%;
 	font-size: 1rem;
 	line-height: 1.5;
 }
@@ -283,6 +285,22 @@ h4,
 h5,
 h6 {
 	clear: both;
+}
+.site-title{
+	font-family:'josefin-slab', sans-serif;
+	font-weight:300;
+	font-size:3em;
+	text-align:center;
+}
+
+.site-title a{
+	text-decoration:none;
+	color: #404040;
+}
+
+.site-title a:hover{
+	border-bottom:1px dotted #222;
+
 }
 
 p {

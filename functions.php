@@ -102,6 +102,9 @@ add_action( 'widgets_init', '_fn_widgets_init' );
 function _fn_scripts() {
 	wp_enqueue_style( '_fn-style', get_stylesheet_uri() );
 
+	wp_enqueue_script( 'josefin', 'http://use.edgefonts.net/josefin-slab.js', false, false, false);
+	wp_enqueue_script( 'merriweather', 'http://use.edgefonts.net/merriweather.js', false, false, false);
+
 	wp_enqueue_script( '_fn-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
 	wp_enqueue_script( '_fn-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
