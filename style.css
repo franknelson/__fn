@@ -828,6 +828,15 @@ ul#menu-main{
 	margin:0.3em 0;
 }
 
+.entry-header a, .entry-header a:visited{
+	color:#404040;
+	text-decoration:none;
+}
+.entry-header a:hover{
+	color:#606060;
+}
+
+
 /*--------------------------------------------------------------
 10.2 Asides
 --------------------------------------------------------------*/

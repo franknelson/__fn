@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<img src="<?php bloginfo('stylesheet_directory'); ?>/img/hero.jpg"/>
+		<!-- <img src="<?php bloginfo('stylesheet_directory'); ?>/img/hero.jpg"/> -->
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
