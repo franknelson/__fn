@@ -1,21 +1,10 @@
-<?php
-/**
- * The template for displaying the footer.
- *
- * Contains the closing of the #content div and all content after
- *
- * @package _fn
- */
-?>
-
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', '_fn' ) ); ?>"><?php printf( __( 'Proudly powered by %s', '_fn' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', '_fn' ), '_fn', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
+			<h1>Contact Us</h1>
+		  <p>Pressed and Squeezed</p>
+		  <p>2525 Orange Way, Orchard, CA 91104</p>
+		  <p>Phone: (800) 424-3232</p>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

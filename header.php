@@ -1,12 +1,4 @@
-<?php
-/**
- * The header for our theme.
- *
- * Displays all of the <head> section and everything up till <div id="content">
- *
- * @package _fn
- */
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -24,12 +16,12 @@
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+			<h2 class="site-description invisible"><?php bloginfo( 'description'); ?></h2>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="menu" aria-expanded="false"><?php _e( 'Primary Menu', '_fn' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+			<button class="menu-toggle" aria-controls="menu" aria-expanded="false"><?php _e( 'Main', '_fn' ); ?></button>
+			<?php wp_nav_menu( array( 'theme_location' => 'Main' ) ); ?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
