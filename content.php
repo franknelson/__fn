@@ -9,9 +9,9 @@
 		<?php the_title( sprintf( '<h1 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
 
 		<?php if ( 'post' == get_post_type() ) : ?>
-		<div class="entry-meta">
+		<!--<div class="entry-meta">
 			<?php _fn_posted_on(); ?>
-		</div><!-- .entry-meta -->
+		</div> .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
@@ -32,7 +32,7 @@
 		?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
+	<!-- <footer class="entry-footer">
 		<?php _fn_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+	</footer> -->
 </article><!-- #post-## -->
